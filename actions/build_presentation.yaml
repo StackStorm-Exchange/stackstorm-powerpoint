@@ -1,5 +1,5 @@
 name: build_presentation
-runner_type: run-python
+runner_type: python-script
 description: Create a PowerPoint presentation
 enabled: true
 entry_point: build_presentation.py

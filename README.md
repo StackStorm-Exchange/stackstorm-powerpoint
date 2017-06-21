@@ -6,6 +6,10 @@ This action enables the integration of StackStorm into Microsoft PowerPoint. Thi
 
 The user can provide a corporate PowerPoint template by specifying a path in `config.yaml`
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
+
 #### Make Presentation
 
 Input :
