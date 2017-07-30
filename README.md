@@ -4,13 +4,16 @@ This action enables the integration of StackStorm into Microsoft PowerPoint. Thi
 
 ## Configuration
 
-The user can provide a corporate PowerPoint template by specifying a path in `config.yaml`
+The user can provide a corporate PowerPoint template by specifying a path in `powerpoint.yaml`
+
+Copy [powerpoint.yaml.example](./powerpoint.yaml.example) to `/opt/stackstorm/configs/powerpoint.yaml`
+and edit as required.
 
 **Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
            remember to tell StackStorm to load these new values by running
            `st2ctl reload --register-configs`
 
-#### Make Presentation
+### Make Presentation
 
 Input :
 
