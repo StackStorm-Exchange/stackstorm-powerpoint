@@ -1,7 +1,7 @@
 import os
 from pptx import Presentation
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 from st2common.exceptions.action import InvalidActionParameterException
 
 __all__ = [
